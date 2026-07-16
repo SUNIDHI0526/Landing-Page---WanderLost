@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#081b33;
+    color:white;
+}
+
+
+header h1{
+    text-align:center;
+    margin-top:20px;
+    font-size:45px;
+}
+
+header p{
+    text-align:center;
+    color:lightgray;
+    margin:10px 0 20px;
+}
+
+.names{
+    background-color:#0d2f5f;
+    text-align:center;
+    padding:18px;
+}
+
+.names a{
+    text-decoration:none;
+    color:white;
+    margin:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.names a:hover{
+    color:skyblue;
+}
+
+.names button{
+    padding:10px 20px;
+    background:white;
+    color:#0d2f5f;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.names button:hover{
+    background:skyblue;
+    color:white;
+    transform:scale(1.1);
+}
+
+header img{
+    width:100%;
+    height:500px;
+}
+
+.beyond{
+    text-align:center;
+    padding:60px;
+}
+
+.beyond h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.beyond p{
+    margin-bottom:25px;
+    color:lightgray;
+}
+
+.beyond button{
+    padding:12px 30px;
+    border:none;
+    border-radius:25px;
+    background:white;
+    color:#0d2f5f;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.beyond button:hover{
+    background:skyblue;
+    color:white;
+    transform:scale(1.1);
+}
+
+/* Happy Section */
+
+.happy{
+    background:#0d2f5f;
+    text-align:center;
+    padding:20px;
+    font-weight:bold;
+}
+
+
+
+.Destination{
+    text-align:center;
+    padding:50px;
+}
+
+.Destination h1{
+    margin-bottom:30px;
+}
+
+.Destination div{
+    display:inline-block;
+    width:260px;
+    margin:15px;
+    background:#0d2f5f;
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.4s;
+}
+
+.Destination div:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 8px 20px black;
+}
+
+.Destination img{
+    width:100%;
+    height:300px;
+    transition:0.4s;
+}
+
+.Destination img:hover{
+    transform:scale(1.05);
+}
+
+.Destination h3{
+    margin:15px;
+}
+
+.Destination p{
+    margin:10px;
+}
+
+.Destination button{
+    padding:10px 20px;
+    margin:15px;
+    border:none;
+    border-radius:20px;
+    background:white;
+    color:#0d2f5f;
+    transition:0.3s;
+}
+
+.Destination button:hover{
+    background:skyblue;
+    color:white;
+}
+
+.why{
+    text-align:center;
+    padding:50px;
+}
+
+.why h1{
+    margin-bottom:25px;
+}
+
+.why p{
+    margin:15px;
+    font-size:18px;
+}
+
+
+.packages{
+    text-align:center;
+    padding:50px;
+}
+
+.packages h1{
+    margin-bottom:30px;
+}
+
+.packages div{
+    display:inline-block;
+    width:250px;
+    margin:15px;
+    background:#0d2f5f;
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.4s;
+}
+
+.packages div:hover{
+    transform:scale(1.05);
+    box-shadow:0px 8px 20px black;
+}
+
+.packages img{
+    width:100%;
+    height:300px;
+    transition:0.4s;
+}
+
+.packages img:hover{
+    transform:scale(1.05);
+}
+
+.packages h3{
+    margin:15px;
+}
+
+.packages p{
+    margin-bottom:15px;
+}
+
+.packages button{
+    padding:10px 20px;
+    margin-bottom:20px;
+    border:none;
+    border-radius:20px;
+    background:white;
+    color:#0d2f5f;
+    transition:0.3s;
+}
+
+.packages button:hover{
+    background:skyblue;
+    color:white;
+}
+
+.packages button::before{
+    content:"Book Now";
+}
+
+.Reviews{
+    text-align:center;
+    padding:50px;
+}
+
+.Reviews h1{
+    font-size:38px;
+    margin-bottom:30px;
+}
+
+.Reviews div{
+    display:inline-block;
+    width:260px;
+    margin:15px;
+    background:#0d2f5f;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0px 5px 15px black;
+    transition:0.3s;
+    vertical-align:top;
+}
+
+.Reviews div:hover{
+    transform:translateY(-10px);
+    box-shadow:0px 8px 20px skyblue;
+}
+
+.Reviews h3{
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.Reviews p{
+    margin-bottom:15px;
+    line-height:25px;
+}
+
+.Reviews b{
+    font-size:18px;
+}
+
+footer{
+    background:#04101f;
+    text-align:center;
+    padding:40px;
+}
+
+footer h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+footer h3{
+    color:skyblue;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+footer p{
+    margin:8px;
+}
+
+footer div{
+    transition:0.3s;
+}
+
+footer div:hover{
+    transform:translateY(-5px);
+}
